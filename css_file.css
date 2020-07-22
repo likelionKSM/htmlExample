@@ -1,0 +1,27 @@
+
+*{
+    background-color : gray;
+} 
+
+
+img {
+    width : 100 px;
+    height : 500px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 50px;
+}
+
+a:link {
+    color : gray;
+}
+
+a:hover {
+    color : green;
+}
+
+a:visited {
+    color :red;
+}
