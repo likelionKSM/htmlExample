@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html실습</title>
+    <link rel="stylesheet" href = "./css_file.css"/>
+</head>
+<body>
+    <div >
+        div는 이렇게 줄바꿈을 하는 block content 입니다.
+    </div>    
+    다음것
+    <span> span은 이렇게 줄바꿈하지 않는 inline conten 입니다.</span>
+    다음것
+    <br>
+    <a href = "https://namu.wiki/w/%EB%B2%84%EC%8A%A4%EC%BB%A4%20%EB%B2%84%EC%8A%A4%EC%BB%A4"> 버스커버스커 나무위키 </a>
+    <br>
+    <img src = "https://w.namu.la/s/2b1a777c44f44fe1880859ff15f190b385acc25a5b87f6103d3dc7b75e7a72e153f6154c28d03635de453ecaa0c9dbfa8e3800241f36346fd78d285fe53b076feeb5ed965110ac37ac15a37960e3fa022d7096c6bed61cf724dfa90191dce30fe089a8e355f0600af551003417012470" alt ="버스커버스커사진"/>
+
+
+    <div class ="song_title">
+    <h1> 버스커버스커 음악목록</h1>
+        <ol class >
+            <li> 처음엔 사랑이란게 </li>
+            <li> 꽃송이가 </li>
+            <li> 그마힘 </li>
+            <li> 시원한 여자</li>
+            <li> 이상형 </li>
+            <li> 아름다운 나이</li>
+            <li> 잘할걸 </li>
+            <li> 그대입술이 </li>
+        </ol>
+    </div>
+
+    <div class ="member">
+        <h1> 멤버구성원 </h1>
+        <ul class >
+            <li> 장범준 </li>
+            <li> 브래드 </li>
+            <li> 김형태 </li>
+        </ul>
+    </div>
+    <br>
+
+
+
+    <div>
+        <h2> 버스커버스커 팬사이트 로그인 메뉴입니다.</h2>
+        <form action = "https://server.ai-school.com" method = "POST">
+            <label for = "userid"> 이메일</label>
+            <input class="userid" name = "userid" placeholder="아이디를 입력해보세요" type="text"/>
+            <label for = "userpw"> 비밀번호 </label>
+            <input
+                class="userpw"
+                name ="userpw"
+                placeholder="비밀번호를 입력해보세요"
+                type ="password"
+            />
+        
+            <select name ="favorite_member">
+                <option value ="장범준"> 장범준 </option>
+                <option value ="브래드"> 브래드 </option>
+                <option value ="김형태"> 김형태 </option>
+            </select>
+            <span>
+            <button type= "submit" > 전송하기 </button>
+            </span>
+            <br>
+            <br>
+            <textarea name = "content" cols ="100" rows ="20">
+    버스커버스커 팬여러분들 정말 반갑습니다
+            </textarea>
+      
+        </form>    
+
+    </div>
+</body>
+</html>
