@@ -1,6 +1,6 @@
 
 *{
-    background-color : gray;
+    background-color : skyblue;
 } 
 
 
@@ -24,4 +24,23 @@ a:hover {
 
 a:visited {
     color :red;
+}
+
+.song_title ol {
+    color : blue;
+    font-size: 25px;
+}
+
+
+.member ul {
+    color : rebeccapurple;
+    font-size: 25px;
+}
+
+.login h2 {
+    color : salmon;
+}
+
+.login label {
+    color : beige;
 }
